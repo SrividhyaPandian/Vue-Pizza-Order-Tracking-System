@@ -33,6 +33,7 @@
 <script>
 import tableComp from './custom/tableComp';
 import menuList from './custom/orderForm';
+import { cloneDeep } from 'lodash';
 
 export default {
     name:"pizzaTrackList",
@@ -70,11 +71,13 @@ export default {
         },
         deleteItem(data) {
             // Deleting "Ready To Serve" Items from Track List
-            this.defaultOrders.data.forEach((element, index) => {
+            var dummy = _.cloneDeep(this.defaultOrders.data)
+            dummy.forEach((element, index) => {
                 if(element.id === data.item.id) {
-                    this.defaultOrders.data.splice(index, 1);
+                    dummy.splice(index, 1);
                 }
             });
+            this.defaultOrders.data = dummy
         },
         goToMenu() {
             this.activeSection = 'menuList'
