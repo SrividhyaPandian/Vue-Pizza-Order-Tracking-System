@@ -5,6 +5,7 @@
             :items="tableData.data"
             hide-actions
             item-key="id"
+            no-data-text="All orders Delivered Happily !!!"
         >
         <template v-slot:items="props">
             <tr :item-key="props.index">
