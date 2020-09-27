@@ -1,6 +1,7 @@
 # pizzatrackingapp
 
-> A Vue.js project
+>
+This is a Simple Pizza Order Tracking System developed using Vue Js. It has been styled using Vue's Vuetify UI framework for a more rich and Interactive User Experience along with SCSS for more expressive and optimized coding. Axios has been used to fetch local mock data. Material Icons have been used to create a more delighted and easy to understand UI.
 
 ## Build Setup
 
