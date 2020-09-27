@@ -1,0 +1,103 @@
+[
+    
+    {
+        "mainLabel": "Vegetarian Bonanza",
+        "data": [
+            {
+                "label": "Peppy Panneer",
+                "price": "215",
+                "value": false,
+                "hint":"(Flavourful trio of juicy panneer, crisp capsicum with spicy red paprika)"
+            },
+            {
+                "label": "Deluxe Veggie",
+                "price": "235",
+                "value": false,
+                "hint": "(Veg Delight onion, capsicum, grilled mushroom, corn and panneer)"
+            },
+            {
+                "label": "Cheese and Corn",
+                "price": "165",
+                "value": false,
+                "hint":"(Sweet and juicy golden corn with mozzarella cheese)"
+            },
+            {
+                "label": "Margherita",
+                "price": "99",
+                "value": false,
+                "hint":"(A classic delight with mozzarella cheese)"
+            }
+        ]
+    },
+    {   
+        "mainLabel": "Non- Vegetarian Mania",
+        "data": [
+            {
+                "label": "Chicken Golden Delight",
+                "price": "245",
+                "value": false,
+                "hint": "(Double pepper barbeque chicken, golden corn and extra cheese)"
+            },
+            {
+                "label": "Non Veg Supreme",
+                "price": "305",
+                "value": false,
+                "hint": "(Supreme combination of veggies and peri peri chicken with chicken rashers)"
+            },
+            {
+                "label": "Chicken Pepperoni",
+                "price": "315",
+                "value": false,
+                "hint": "(Classic delight with chicken pepperoni topped with extra cheese)"
+            },
+            {
+                "label": "Pepper Barbeque Chicken",
+                "price": "185",
+                "value": false,
+                "hint": "(A classic favourite with pepper barbeque chicken)"
+            }
+        ]
+    },
+    {
+        "mainLabel": "Stay At Home Combos",
+        "data": 
+        [
+            {
+                "label": "Meal for 4- Veg",
+                "price": "899",
+                "value": false,
+                "hint": "(2 Medium Veg Pizza of choice, 2 garlic bread stxs, 2 pepsi)"
+            },
+            {
+                "label": "Meal for 4- Non-Veg",
+                "price": "999",
+                "value": false,
+                "hint": "(2 Medium Non-Veg Pizza of choice, 2 garlic bread stxs, 2 pepsi)"
+            }
+        ]
+    },
+    {   
+        "mainLabel": "Express Side Combos",
+        "data": 
+        [
+            {
+                "label": "Twin Sharing Combo",
+                "price": "399",
+                "value": false,
+                "hint": "(Garlic bread (4pcs) + French fries regular + Coke 250ml)"
+            },
+            {
+                "label": "Pastalicious",
+                "price": "269",
+                "value": false,
+                "hint": "(Garlic bread (4pcs) + Arabiatta(Veg) + Coke 250ml)"
+            },
+            {
+                "label": "Cheesey Juicy Dhamaka - Non-Veg",
+                "price": "499",
+                "value": false,
+                "hint": "(Cheese corn nuggets(5pcs)+ 10 Inch Veg Pizza + Coke 250ml)"
+            }
+        ]
+    }
+]

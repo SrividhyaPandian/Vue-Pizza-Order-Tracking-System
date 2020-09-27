@@ -1,0 +1,46 @@
+{
+    "headers": [
+        { "text": "Tracking ID","align": "left","sortable": false,"value": "id"},
+        { "text": "Customer Name","align": "left","sortable": false, "value": "name" },
+        { "text": "No of Items Ordered","align": "left","sortable": false, "value": "noOfItems" },
+        { "text": "Total amount of Order","align": "left","sortable": false, "value": "totalAmount" },
+        { "text": "Status","align": "left","sortable": false, "value": "status" }
+    ],
+    "data": [
+        {
+            "id": 101,
+            "name": "Ram Kumar",
+            "noOfItems": 5,
+            "totalAmount": "Rs.540",
+            "status": "Order Received"
+        },
+        {
+            "id": 102,
+            "name": "David",
+            "noOfItems": 2,
+            "totalAmount": "Rs.160",
+            "status": "Order Preparing"
+        },
+        {
+            "id": 103,
+            "name": "Aishwarya",
+            "noOfItems": 3,
+            "totalAmount": "Rs.350",
+            "status": "Ready to Serve"
+        },
+        {
+            "id": 104,
+            "name": "Sunil Prabhu",
+            "noOfItems": 8,
+            "totalAmount": "Rs.1200",
+            "status": "Order Preparing"
+        },
+        {
+            "id": 105,
+            "name": "Hameed",
+            "noOfItems": 1,
+            "totalAmount": "Rs.90",
+            "status": "Ready to Serve"
+        }
+    ]
+}
