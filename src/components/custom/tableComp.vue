@@ -13,8 +13,9 @@
                 <td>{{ props.item.name }}</td>
                 <td>{{ props.item.noOfItems }}</td>
                 <td>{{ props.item.totalAmount }}</td>
-                <td class="status" @click="changeStatus(props.item)">
+                <td class="status">
                     <v-btn class="statusBtn" 
+                        @click="changeStatus(props.item)"
                         :class="{'received': props.item.status==='Order Received', 
                         'preparing': props.item.status==='Order Preparing',
                         'ready': props.item.status==='Ready to Serve'}">
