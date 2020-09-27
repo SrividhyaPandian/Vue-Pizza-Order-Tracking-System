@@ -4,7 +4,7 @@
 This is a Simple Pizza Order Tracking System developed using Vue Js. It has been styled using Vue's Vuetify UI framework for a more rich and Interactive User Experience along with SCSS for more expressive and optimized coding. Axios has been used to fetch local mock data. Material Icons have been used to create a more delighted and easy to understand UI.
 
 Order Tracking Screen
-![OrderTrackingScreen](https://github.com/[SrividhyaPandian]/[Vue-Pizza-Order-Tracking-System]/blob/[master]/Order Track List.jpg?raw=true)
+![Order Track List](https://user-images.githubusercontent.com/57481932/94360089-a95f8200-00c8-11eb-90ce-b2452aeb532d.png)
 
 ## Build Setup
 
